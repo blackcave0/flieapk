@@ -80,7 +80,8 @@ body{
         display: flex;
         width: 100px;
         height: 40px;
-        background: #7369fd;
+        /* background: #7369fd; */
+        background: #a39dff;
         color: #ffffff;
         font-size: 15px;
         font-family: 'Open Sans', sans-serif;
@@ -91,7 +92,8 @@ body{
         margin: 10px 0 0 30px;
     }
     .button:hover{
-        background: #3d3f42;
+        /* background: #3d3f42; */
+        background: #f09df0;
     }
     a{
         text-decoration: none;
