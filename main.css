@@ -9,12 +9,44 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: #ffffff;
+    /* background: #bdfae3; */
+    /* background: url(https://lh3.googleusercontent.com/GTmuiIZrppouc6hhdWiocybtRx1Tpbl52eYw4l-nAqHtHd4BpSMEqe-vGv7ZFiaHhG_l4v2m5Fdhapxw9aFLf28ErztHEv5WYIz5fA); */
+    /* width: 300px; */
+    background: url(/ProApk.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav{
+    width: 1370px;
+}
+
+.container .site-name{
+    font-size: 35px;
+    color: #75fff8;
+    margin-bottom: 30px;
+}
+.apk{
+    margin: 20px 0;
+}
+img{
+    width: 300px;
+    height: 170px;
+    /* margin: 0 30px; */
+    border-radius: 5px;
+    /* border: 1px solid; */
+    box-shadow: 0 0 10px #ffffff;
+    /* border-color: #75fff8; */
 }
 
 @media screen and (max-width: 360px){
@@ -23,7 +55,13 @@ body{
         justify-content: center;
         align-items: center;
         /* background: #e9eff0; */
-        background: #353b3d;
+        /* background: #353b3d; */
+
+        background: url(/PROAPK\(1\).png);
+        /* background-size: 300px; */
+        background-size: 500px 500px;
+        background-position: center;
+        background-attachment: fixed;
     }
     .container{
         position: relative;
@@ -33,20 +71,41 @@ body{
         flex-wrap: wrap;
         margin: 0;
     }
+
+    nav{
+        width: 360px;
+    }
+
+    nav a{
+        font-family: 'Open Sans', sans-serif;
+        /* font-size: 20px; */
+    }
+
+    nav a img{
+        width: 70px;
+        height: 50px;
+        box-shadow: none;
+    }
+
     .container .site-name{
         font-size: 35px;
-        color: #0b2453;
+        color: #75fff8;
         margin-bottom: 30px;
     }
     .apk{
         margin: 20px 0;
     }
-    img{
+
+
+    /* img{
         width: 300px;
         height: 170px;
         margin: 0 30px;
         border-radius: 5px;
-    }
+        box-shadow: 0 0 10px #ffffff;
+    } */
+    /* border-color: #75fff8; */
+    /* border: 1px solid; */
     
     /* .container h3{ */
         /* position: absolute; */
