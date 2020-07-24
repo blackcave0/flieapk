@@ -111,7 +111,8 @@ img{
         justify-content: center;
         align-items: center;
         background: #ffffff;
-        background: url(two.png);
+        height: 100vh;
+        background: url(non-and-0.png);
         background-size: 450px 600px ;
         background-position: top;
         /* background-size: 450px 570px ; */
