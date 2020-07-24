@@ -28,9 +28,19 @@ nav{
     margin-bottom: 10px;
 }
 
-nav a{
-    color: #000;
-    
+nav .nav-link{
+    font-size: 18px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover:not(.navbar-brand){
+    display: flex;
+    transition: .9s;
+    width: 120px;
+    background: #0ac9b9;
+    border-radius: 5px;
 }
 
 nav .navbar-brand .img{
@@ -73,6 +83,7 @@ img{
     cursor: default;
     transition: .9s;
     transform: scale(1.1); 
+    /* background: #fcd5b1; */
 }
 
 .description{
@@ -101,7 +112,9 @@ img{
 
 .button:hover{
     color: #ffffff; 
-    text-decoration: none;  
+    text-decoration: none;
+    transition: 0.6s;
+    background: #ff5447;
 
 }
 
@@ -136,14 +149,22 @@ img{
     
     nav a{
         font-family: 'Open Sans', sans-serif;
-        color: #000;
         font-size: 18px;
         font-weight: 900;
-        /* font-size: 20px; */
     }
 
-    nav a:hover{
-        background: #636163;
+    nav .nav-link{
+        display: flex;
+        width: auto;
+        justify-content: unset;
+    }
+    nav a:hover:not(.navbar-brand){
+        display: flex; 
+        background: #929192;
+        width: auto;       
+        transition: none;
+        border-radius: unset;
+
     }
     
     nav .navbar-brand .img{
