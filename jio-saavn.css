@@ -14,7 +14,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -89,8 +89,9 @@ nav .navbar-brand .img{
 
 .about{
     position: relative;
-    top: -340px;
+    /* top: -340px; */
     margin: 0 0 0 390px;
+    margin-top: -340px;
 }
 
 .about h2{
@@ -112,12 +113,61 @@ nav .navbar-brand .img{
     font-size: 16px;
 }
 
+.imp{
+    color: red;
+    /* margin-top: 90px; */
+}
+
+.button{
+    display: flex;
+    width: 400px;
+    height: 40px;
+    background: #384bf1;
+    color: #ffffff;
+    font-size: 17px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 60px 0;
+    border-radius: 5px;
+    /* margin-left: -430px; */
+    /* margin-bottom: 90px; */
+}
+.button:hover{
+    /* background: #ff7e68; */
+    background: #ff5447;
+    text-decoration: none;
+    transition: .9s;
+    color: #000;
+}
+
+.container .logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: #29393f;
+    /* background: #444444; */
+    padding: 10px 673px;
+}
+
+.logo .logo-img{
+    width: 280px;
+    height: 120px;
+}
+
 @media screen and (max-width: 360px){
     body{
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #ffffff;
+        background: url(two.png);
+        background-size: 450px 700px ;
+        background-position: top;
+        background-attachment: fixed;
     }
 
     .container{
@@ -171,17 +221,15 @@ nav .navbar-brand .img{
     }
     
     .about{
-        /* position: relative; */
-        /* display: block; */
-        /* justify-content: center; */
-        top: 0;
         margin: 0 20px;
+        margin-top: 0;
     }
     
     .jio img{
         width: 300px;
         height: 200px;
         margin: 30px 0;
+        border-radius: 5px;
     }
 
     .about h2{
@@ -202,4 +250,44 @@ nav .navbar-brand .img{
         font-size: 16px;
     }
 
+    .imp{
+        color: red;
+    }
+
+    .button{
+        display: flex;
+        width: 120px;
+        height: 40px;
+        background: #384bf1;
+        color: #ffffff;
+        font-size: 15px;
+        /* font-family: 'Open Sans', sans-serif; */
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 10px 0;
+    }
+    .button:hover{
+        background: #ff5447;
+        text-decoration: none;
+        transition: .9s;
+        color: #000;
+    }
+
+    .container .logo{
+        width: 360px;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        background: #29393f;
+        padding:10px 90px ;
+    }
+
+    .logo .logo-img{
+        width: 180px;
+        height: 100px;
+    }
+   
 }
