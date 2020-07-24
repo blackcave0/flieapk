@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 
-/* body{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +100,7 @@ img{
 
 .button:hover{
     color: #ffffff;   
-} */
+}
 
 
 @media screen and (max-width: 360px){
@@ -161,9 +161,12 @@ img{
         margin: 20px 0;
     }
 
-    /* .apk:hover{
-        display: none;
-    } */
+    .apk:hover{
+        box-shadow: none;
+        cursor: auto;
+        transition: none;
+        transform: none;
+    }
 
     img{
         width: 300px;
