@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Mulish:wght@200;300;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    background: url(two.png);
+    background-size: 1300px 900px;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+nav{
+    width: 1340px;
+    display: flex;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+nav .nav-link{
+    font-size: 18px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover:not(.navbar-brand){
+    display: flex;
+    transition: .9s;
+    width: 120px;
+    background: #0ac9b9;
+    border-radius: 5px;
+}
+
+nav .navbar-brand .img{
+    width: 100px;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-brand .img{
+    box-shadow: none;
+    height: 50px;
+    width: 50px;
+}
+
+.jio{
+    position: relative;
+    display: flex;
+    left: -400px;
+    margin-top: 40px;
+}
+
+.jio img{
+    width: 400px;
+    height: 300px;
+    margin: 30px 0;
+}
+
+.about{
+    position: relative;
+    top: -340px;
+    margin: 0 0 0 390px;
+}
+
+.about h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about p{
+    font-weight: 500;
+    text-align: justify;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 360px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+    }
+
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    nav{
+        width: 360px;
+        display: flex;
+        height: min-content;
+        /* margin-bottom: 160px; */
+    }
+    
+    nav a{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    nav .nav-link{
+        display: flex;
+        width: auto;
+        justify-content: unset;
+    }
+    nav a:hover:not(.navbar-brand){
+        display: flex; 
+        background: #929192;
+        width: auto;       
+        transition: none;
+        border-radius: unset;
+
+    }
+    
+    nav .navbar-brand .img{
+        width: 70px;
+        height: 50px;
+        margin-top: 0;
+        box-shadow: none;
+    }
+
+    .jio{
+        /* position: relative; */
+        display: block;
+        left:0;
+        margin-top: 40px;
+    }
+    
+    .about{
+        /* position: relative; */
+        /* display: block; */
+        /* justify-content: center; */
+        top: 0;
+        margin: 0 20px;
+    }
+    
+    .jio img{
+        width: 300px;
+        height: 200px;
+        margin: 30px 0;
+    }
+
+    .about h2{
+        font-weight: 300;
+    }
+
+    .about p{
+        font-weight: 300;
+        /* text-align: justify; */
+        font-size: 17px;
+    }
+    
+
+}
