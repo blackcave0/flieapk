@@ -115,7 +115,8 @@ img{
         background: url(two.png);
         /* background-size: 450px 600px ; */
         /* background-position: top; */
-        background-size: 450px 600px ;
+        /* background-size: 450px 700px; */
+        background-size: cover;
         background-position: bottom;
         background-attachment: fixed;
 
