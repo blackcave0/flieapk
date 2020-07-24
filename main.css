@@ -119,7 +119,7 @@ body{
         background-size: 450px 700px ;
         background-position: top;
         background-attachment: fixed;
-        scroll-behavior: auto;
+        /* scroll-behavior: auto; */
 
     }
     .container{
