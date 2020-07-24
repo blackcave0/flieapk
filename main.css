@@ -10,15 +10,15 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     display: flex;
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    /* background: url(two.png); */
-    /* background-size: 1300px 900px; */
-    /* background-position: top; */
-    /* background-attachment: fixed; */
+    background: url(two.png);
+    background-size: 1300px 900px;
+    background-position: top;
+    background-attachment: fixed;
 }
 
 nav{
@@ -44,8 +44,8 @@ nav .navbar-brand .img{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* margin: 90px; */
 }
+
 .navbar-brand .img{
     box-shadow: none;
     height: 50px;
@@ -77,7 +77,6 @@ img{
 .description{
     width: 280px;
     height: 290px;
-    /* margin: 0 20px; */ 
 }
 
 .description, h2 p{
@@ -88,7 +87,6 @@ img{
     display: flex;
     width: 100px;
     height: 40px;
-    /* background: #7369fd; */
     background: #384bf1;
     color: #ffffff;
     font-size: 15px;
@@ -102,7 +100,7 @@ img{
 
 .button:hover{
     color: #ffffff;   
-}
+} */
 
 
 @media screen and (max-width: 360px){
