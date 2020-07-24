@@ -19,10 +19,11 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url(two.png);
-        background-size: 1300px 900px;
-        background-position: top;
-        background-attachment: fixed;
+        background: #ffffff;
+        /* background: url(two.png); */
+        /* background-size: 1300px 900px; */
+        /* background-position: top; */
+        /* background-attachment: fixed; */
     }
     
     nav{
@@ -115,11 +116,12 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url(two.png);
-        background-size: 450px 700px ;
-        background-position: top;
-        background-attachment: fixed;
-        scroll-behavior: smooth;
+        background: #ffffff;
+        /* background: url(two.png); */
+        /* background-size: 450px 700px ; */
+        /* background-position: top; */
+        /* background-attachment: fixed; */
+        /* scroll-behavior: smooth; */
 
     }
     .container{
