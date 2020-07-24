@@ -9,106 +9,101 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #ffffff;
+    /* background: url(two.png); */
+    /* background-size: 1300px 900px; */
+    /* background-position: top; */
+    /* background-attachment: fixed; */
 }
-/* @media screen and (max-width: 1376px){ */
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #ffffff;
-        /* background: url(two.png); */
-        /* background-size: 1300px 900px; */
-        /* background-position: top; */
-        /* background-attachment: fixed; */
-    }
-    
-    nav{
-        width: 1340px;
-        display: flex;
-        height: 80px;
-        margin-bottom: 40px;
-    }
-    nav a{
-        color: #000;
-       
-    }
 
-    nav .navbar-brand .img{
-        width: 100px;
-        margin-top: 50px;
-        height: 100px;
-    }
+nav{
+    width: 1340px;
+    display: flex;
+    height: 80px;
+    margin-bottom: 40px;
+}
+nav a{
+    color: #000;
+    
+}
 
-    .container{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        /* margin: 90px; */
-    }
-    .navbar-brand .img{
-        box-shadow: none;
-        height: 50px;
-        width: 50px;
-    }
-    .container .site-name{
-        font-size: 35px;
-        color: #75fff8;
-        margin-bottom: 30px;
-    }
-    .apk{
-        margin:50px 20px;
-        border-radius: 5px;
-    }
-    img{
-        width: 300px;
-        height: 170px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px #ffffff;
-    }
-    
-    .apk:hover{
-        box-shadow: 0 0 5px #000;
-        cursor: pointer;
-        transition: .9s;
-        transform: scale(1.1); 
-    }
-    
-    .description{
-        width: 280px;
-        height: 290px;
-        /* margin: 0 20px; */ 
-    }
-    
-    .description, h2 p{
-        margin: 0 10px;
-    }
-    
-    .button{
-        display: flex;
-        width: 100px;
-        height: 40px;
-        /* background: #7369fd; */
-        background: #384bf1;
-        color: #ffffff;
-        font-size: 15px;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        margin: 10px 0 0 30px;
-    }
-    
-    .button:hover{
-        color: #ffffff;   
-    }
-/* } */
+nav .navbar-brand .img{
+    width: 100px;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 90px; */
+}
+.navbar-brand .img{
+    box-shadow: none;
+    height: 50px;
+    width: 50px;
+}
+.container .site-name{
+    font-size: 35px;
+    color: #75fff8;
+    margin-bottom: 30px;
+}
+.apk{
+    margin:50px 20px;
+    border-radius: 5px;
+}
+img{
+    width: 300px;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.apk:hover{
+    box-shadow: 0 0 5px #000;
+    cursor: pointer;
+    transition: .9s;
+    transform: scale(1.1); 
+}
+
+.description{
+    width: 280px;
+    height: 290px;
+    /* margin: 0 20px; */ 
+}
+
+.description, h2 p{
+    margin: 0 10px;
+}
+
+.button{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    /* background: #7369fd; */
+    background: #384bf1;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px 0 0 30px;
+}
+
+.button:hover{
+    color: #ffffff;   
+}
+
 
 @media screen and (max-width: 360px){
     body{
@@ -172,25 +167,14 @@ body{
         display: none;
     }
 
-    /* img{
+    img{
         width: 300px;
         height: 170px;
         margin: 0 30px;
         border-radius: 5px;
-        box-shadow: 0 0 10px #ffffff;
-    } */
-    /* border-color: #75fff8; */
-    /* border: 1px solid; */
-    
-    /* .container h3{ */
-        /* position: absolute; */
-        /* .display: flex; */
-        /* text-align: center; */
-        /* .justify-content: center; */
-        /* align-items: center; */
-        /* padding-left: 10px; */
-        /* -margin: 0 15px; */
-    /* } */
+        /* box-shadow: 0 0 10px #ffffff; */
+    }
+   
     p{
         font-size: 20px;
         font-weight: bold;
