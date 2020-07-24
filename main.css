@@ -27,6 +27,7 @@ nav{
     height: 80px;
     margin-bottom: 40px;
 }
+
 nav a{
     color: #000;
     
@@ -110,10 +111,10 @@ img{
         justify-content: center;
         align-items: center;
         background: #ffffff;
-        /* background: url(two.png); */
-        /* background-size: 450px 700px ; */
-        /* background-position: top; */
-        /* background-attachment: fixed; */
+        background: url(two.png);
+        background-size: 450px 700px ;
+        background-position: top;
+        background-attachment: fixed;
         /* scroll-behavior: smooth; */
 
     }
