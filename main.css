@@ -110,13 +110,13 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #ffffff;
+        /* background: #ffffff; */
         height: fit-content;
-        background: url(PROAPK\(2\).png);
-        background-size: 450px 600px ;
-        background-position: top;
-        /* background-size: 450px 570px ; */
-        /* background-position: center; */
+        background: url(two.png);
+        /* background-size: 450px 600px ; */
+        /* background-position: top; */
+        background-size: 450px 500px ;
+        background-position: center;
         background-attachment: fixed;
 
     }
