@@ -115,7 +115,7 @@ img{
         /* background-size: 450px 600px ; */
         /* background-position: top; */
         background-size: 450px;
-        background-position: center;
+        background-position: top;
         background-attachment: fixed;
 
     }
