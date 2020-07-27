@@ -172,7 +172,7 @@ nav .navbar-brand .img{
         align-items: center;
         background: url(new.png);
         background-size: 450px 500px ;
-        background-position: top;
+        background-position: center;
         background-attachment: fixed;
     }
 
