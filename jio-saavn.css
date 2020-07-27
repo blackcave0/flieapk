@@ -171,7 +171,8 @@ nav .navbar-brand .img{
         justify-content: center;
         align-items: center;
         background: url(new.png);
-        background-size: 450px 600px ;
+        /* background-size: 450px 600px ; */
+        background-size: cover;
         background-position: top;
         background-attachment: fixed;
     }
