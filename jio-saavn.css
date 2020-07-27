@@ -140,7 +140,8 @@ nav .navbar-brand .img{
     /* background: #ff7e68; */
     background: #ff5447;
     text-decoration: none;
-    transition: .9s;
+    font-weight: 900;
+    transition: .8s;
     color: #000;
 }
 
@@ -157,6 +158,11 @@ nav .navbar-brand .img{
 .logo .logo-img{
     width: 280px;
     height: 120px;
+}
+
+.container .cont-icon{
+    font-size: 25px;
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 360px){
