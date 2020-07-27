@@ -262,8 +262,8 @@ nav .navbar-brand .img{
 
     .button{
         display: flex;
-        width: 120px;
-        height: 40px;
+        width: 125px;
+        height: 45px;
         background: #384bf1;
         color: #ffffff;
         font-size: 15px;
@@ -295,5 +295,9 @@ nav .navbar-brand .img{
         width: 180px;
         height: 100px;
     }
-   
+    
+    .container .cont-icon{
+        font-size: 18px;
+        margin-left: 5px;
+    }
 }
