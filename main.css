@@ -180,13 +180,14 @@ img{
     .bg .img{
         width: 390px;
         background: url(neon.gif);
-        height: 400px;
+        height: 300px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         /* background-size: 600px 450px; */
         /* margin-left: -890px; */
         background-size: cover;
+        margin-top: 0;
     }
 
     .container{
