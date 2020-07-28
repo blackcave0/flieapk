@@ -180,7 +180,7 @@ img{
     .bg .img{
         width: 390px;
         background: url(neon.gif);
-        height: 200px;
+        height: 400px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
