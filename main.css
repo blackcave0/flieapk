@@ -184,9 +184,9 @@ img{
         background-attachment: fixed;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: 600px 450px;
+        /* background-size: 600px 450px; */
         /* margin-left: -890px; */
-        /* background-size: contain; */
+        background-size: contain;
     }
 
     .container{
