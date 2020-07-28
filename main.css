@@ -182,7 +182,7 @@ img{
         background: url(neon.gif);
         height: 200px;
         background-attachment: fixed;
-        background-position: top;
+        background-position: center;
         background-repeat: no-repeat;
         /* background-size: 600px 450px; */
         /* margin-left: -890px; */
