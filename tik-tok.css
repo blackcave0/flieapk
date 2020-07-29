@@ -31,10 +31,10 @@ body{
     background: linear-gradient(45deg, #f3d0d0 50%, #c2ffbd 50%);
     /* background: url(two.png); */
     /* background-size: 1300px 900px; */
-    /* background-position: top; */
+    /* background-size: cover; */
+    background-position: top;
     background-attachment: fixed;
 }
-
 
 nav{
     width: 1349px;
@@ -60,7 +60,7 @@ nav a:hover:not(.navbar-brand){
 
 nav .navbar-brand .img{
     width: 70px;
-    /* margin-top: 20px; */
+    /* margin-top: 50px; */
     height: 70px;
 }
 
@@ -106,20 +106,24 @@ nav .navbar-brand .img{
 }
 
 .about p{
-    /* font-weight: 500; */
     text-align: justify;
     font-size: 18px;
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 } 
 
-.about ul{
-    margin-left: 17px;
+.about  ul{
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Montserrat', sans-serif;
 
     font-size: 16px;
+    margin: 90px 0;
+
+}
+.about ul h4{
+    /* margin-left: -90px; */
+    color: #ff0000;
+    font-weight: 900;
 }
 
 .imp{
@@ -180,9 +184,9 @@ nav .navbar-brand .img{
         justify-content: center;
         align-items: center;
         /* background: url(new.png); */
-        /* background-size: 450px 700px ; */
-        /* background-position: top; */
         background: linear-gradient(45deg, #f3d0d0 50%, #c2ffbd 50%);
+        /* background-size: 450px 700px ; */
+        background-position: top;
         background-attachment: fixed;
     }
 
@@ -258,7 +262,6 @@ nav .navbar-brand .img{
         /* text-align: justify; */
         font-size: 18px;
         font-family: 'Poppins', sans-serif;
-        
     }
     
     .about ul{
