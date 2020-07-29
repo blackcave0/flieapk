@@ -270,12 +270,13 @@ img{
         font-weight: bolder;
         text-align: justify;
         margin: 20px 0;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         color: #000;
         font-family: 'Raleway', sans-serif;
     }
     
     .description{
+        width: 300px;
         position: relative;
         display: flex;
         display: inline-block;
