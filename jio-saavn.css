@@ -182,7 +182,7 @@ nav .navbar-brand .img{
         /* background: url(new.png); */
         /* background-size: 450px 700px ; */
         /* background-position: top; */
-        background: linear-gradient(45deg, #f3d0d0 50%, #c2ffbd 50%);
+        background: linear-gradient(180deg, #f3d0d0 50%, #c2ffbd 50%);
         background-attachment: fixed;
     }
 
