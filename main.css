@@ -206,7 +206,7 @@ img{
         width: 360px;
         display: flex;
         height: min-content;
-        /* margin-bottom: -360px; */
+        margin-bottom: -10px;
     }
     
     nav a{
@@ -243,6 +243,7 @@ img{
     }
     .apk{
         margin: 20px 0;
+        
     }
 
     .apk:hover{
@@ -269,6 +270,7 @@ img{
         font-weight: bolder;
         text-align: justify;
         margin: 20px 0;
+        margin-left: 20px;
         color: #000;
         font-family: 'Raleway', sans-serif;
     }
@@ -277,8 +279,8 @@ img{
         position: relative;
         display: flex;
         display: inline-block;
-        text-align: justify;
-        margin: 15px 5px;
+        /* text-align: justify; */
+        margin: 15px 0;
     }
 
     .apk h2{
