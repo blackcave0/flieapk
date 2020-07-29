@@ -63,7 +63,7 @@ nav a:hover:not(.navbar-brand){
 
 nav .navbar-brand .img{
     width: 100px;
-    margin-top: 20px;
+    margin-top: 30px;
     height: 100px;
 }
 
@@ -140,17 +140,21 @@ img{
     background: #ff5447;
 
 }
-
-.contact {
-    width: 100%;
+.contact{
     display: flex;
     justify-content: center;
-    background: url(black-logo.png);
-    height: 100px;
+    width: 1390px;
+    
+}
+.contact .igm{
+    width: 1340px;
+    display: flex;
+    background: url(Technologi.gif);
+    height: 200px;
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: 1px 450px;
     background-repeat: no-repeat;
-    background-size: 100px;
+    background-size: 1400px;
     
 }
 
@@ -298,6 +302,24 @@ img{
     .button:hover{
         background: #ff5447;
         text-decoration: none;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: center;
+        width: 360px;
+        
+    }
+    .contact .igm{
+        width: 360px;
+        display: flex;
+        background: url(Technologi.gif);
+        height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
     }
    
 }
