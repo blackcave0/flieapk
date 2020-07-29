@@ -181,8 +181,8 @@ nav .navbar-brand .img{
         align-items: center;
         background: linear-gradient(180deg, #f3d0d0 50%, #c2ffbd 50%);
         /* background: url(new.png); */
-        background-size: 750px 700px ;
-        background-position: center;
+        background-size: 750px 900px ;
+        background-position: top;
         background-attachment: fixed;
     }
 
