@@ -272,11 +272,9 @@ nav .navbar-brand .img{
     }
 
     .app-info p{
-        /* margin-left: -10px; */
         font-size: 16px;
     }
     .app-info  .name{
-        /* d  */
         position: absolute;
         left: 140px;
     }
