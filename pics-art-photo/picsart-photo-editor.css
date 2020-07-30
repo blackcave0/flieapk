@@ -135,12 +135,11 @@ nav .navbar-brand .img{
     /* margin-top: 90px; */
 }
 
-
-
 .app-info  .name{
     position: absolute;
     left: 300px;
 }
+
 .button{
     display: flex;
     width: 400px;
