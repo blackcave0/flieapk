@@ -241,7 +241,7 @@ nav .navbar-brand .img{
     }
     
     .about{
-        margin: 0 20px;
+        margin: 0 10px;
         margin-top: 0;
     }
     
@@ -271,7 +271,9 @@ nav .navbar-brand .img{
         font-size: 16px;
     }
 
-   
+    /* .app-info{
+        margin-left: -10px;
+    } */
     .app-info  .name{
         position: absolute;
         left: 140px;
