@@ -30,6 +30,7 @@ body{
     /* background: #ffffff; */
     background: linear-gradient(45deg, #f3d0d0 50%, #c2ffbd 50%);
     /* background: url(two.png); */
+    background-size: cover;
     /* background-size: 1300px 900px; */
     /* background-size: cover; */
     background-position: top;
@@ -185,6 +186,7 @@ nav .navbar-brand .img{
         align-items: center;
         /* background: url(new.png); */
         background: linear-gradient(45deg, #f3d0d0 50%, #c2ffbd 50%);
+        background-size: 750px 900px ;
         /* background-size: 450px 700px ; */
         background-position: top;
         background-attachment: fixed;

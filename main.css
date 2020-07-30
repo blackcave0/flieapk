@@ -15,7 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    background: url(two.png);
+    background: url(/image/two.png);
     background-size: 1300px 900px;
     background-position: top;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ body{
 
 .bg .img{
     width: 1340px;
-    background: url(progif.gif);
+    background: url(/image/progif.gif);
     height: 550px;
     background-attachment: fixed;
     background-position: top;
@@ -188,7 +188,7 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url(new.png);
+        background: url(/image/new.png);
         background-size: 450px 700px ;
         background-position: top;
         background-attachment: fixed;
@@ -204,7 +204,7 @@ img{
     
     .bg .img{
         width: 360px;
-        background: url(progif.gif);
+        background: url(/image/progif.gif);
         height: 300px;
         background-attachment: fixed;
         background-position: center;
