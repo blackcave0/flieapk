@@ -27,8 +27,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #ffffff; */
-    background: linear-gradient(45deg, #f3d0d0 50%, #c2ffbd 50%);
+    background: #ffffff;
+    /* background: linear-gradient(45deg, #f3d0d0 50%, #c2ffbd 50%); */
     /* background: url(two.png); */
     background-size: cover;
     /* background-size: 1300px 900px; */
