@@ -231,6 +231,8 @@ ul li{
     width: 1349px;
     display: flex;
     justify-content: left;
+    /* font-family: 'Open Sans', sans-serif; */
+
     align-items: center;
 }
 .cont img{
@@ -444,7 +446,7 @@ ul li{
     }
 
     .contact{
-        width: 1349px;
+        width: 360px;
         height: 200px;
         display: flex;
         align-items: center;
