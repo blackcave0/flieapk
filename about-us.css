@@ -8,6 +8,34 @@ body{
     /* display: block; */
     justify-content: center;
 }
+nav{
+    /* width: 1349px; */
+    /* display: flex; */
+    height: 80px;
+    /* margin-bottom: 20px; */
+    box-shadow: 0 0 5px rgb(223, 223, 223);
+}
+
+nav .nav-link{
+    font-size: 18px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover:not(.navbar-brand){
+    display: flex;
+    transition: .9s;
+    width: 120px;
+    background: #0ac9b9;
+    border-radius: 5px;
+}
+
+nav .navbar-brand .img{
+    width: 70px;
+    /* margin-top: 30px; */
+    height: 70px;
+}
 
 .img-fixed{
     /* width: fit-content; */
@@ -15,31 +43,66 @@ body{
 }
 .img-fixed .img{
     width: 100%;
-    background: url(/image/progif.gif);
+    background: url(/image/about_one.png);
     height: 550px;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     /* background-size: 1400px 600px; */
-    background-size: cover;
-    /* margin-top: 10px; */
+    background-size: contain;
+    /* margin-bottom: 10px; */
 }
 
-.apk{
-    width: 300px;
-    height: 500px;
-    /* display: flex; */
-    /* justify-content: center; */
-    background: #e3ffae;
-    display: inline-block;
-    
-    /* flex-wrap: wrap; */
-    margin: 20px ;
+.img h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 90px;
 }
 
-.apk img{
-    width: 300px;
-    height: 200px;
+/* .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+.about-text{
+    margin-top: 50px;
+}
+.about-text p
+{
+    margin:0 20px;
+    text-align: justify;
+}
+
+.about-text  h3{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.text-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-text .text-img img{
+    width: 66rem;
+    height: 400px;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.ul li{
+    margin: 10px 0;
+    font-size: 17px;
 }
 
 .button{
