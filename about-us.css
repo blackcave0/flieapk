@@ -10,7 +10,7 @@ body{
 }
 nav{
     /* width: 1349px; */
-    /* display: flex; */
+    display: flex;
     height: 80px;
     /* margin-bottom: 20px; */
     box-shadow: 0 0 5px rgb(223, 223, 223);
