@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ffffff;
+}
+
+.img-fixed{
+    /* width: fit-content; */
+    display: flex;
+}
+.img-fixed .img{
+    width: 100%;
+    background: url(/image/progif.gif);
+    height: 550px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-size: 1400px 600px; */
+    background-size: cover;
+    /* margin-top: 10px; */
+}
+
+.apk{
+    width: 300px;
+    height: 500px;
+    background: #e3ffae;
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    margin: 30px ;
+}
+
+.apk img{
+    width: 300px;
+    height: 200px;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 20px;
+    background: #f57878;
+}
