@@ -5,6 +5,8 @@
 
 body{
     background: #ffffff;
+    /* display: block; */
+    justify-content: center;
 }
 
 .img-fixed{
@@ -26,8 +28,11 @@ body{
 .apk{
     width: 300px;
     height: 500px;
+    /* display: flex; */
+    /* justify-content: center; */
     background: #e3ffae;
     display: inline-block;
+    
     /* flex-wrap: wrap; */
     margin: 30px ;
 }
