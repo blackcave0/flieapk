@@ -247,7 +247,7 @@ ul li{
         background: url(/image/about_one.png);
         height: 550px;
         background-attachment: fixed;
-        background-position: 0 500px;
+        background-position: top;
         background-repeat: no-repeat;
         /* background-size: 1400px 600px; */
         background-size: contain;
@@ -265,7 +265,7 @@ ul li{
     
     
     .about-text{
-        margin-top: -30px;
+        margin-top: -130px;
     }
     .about-text p
     {
