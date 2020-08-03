@@ -250,7 +250,7 @@ ul li{
         background-position: top;
         background-repeat: no-repeat;
         /* background-size: 1400px 600px; */
-        background-size: cover;
+        background-size: contain;
         /* margin-bottom: 10px; */
     }
     
