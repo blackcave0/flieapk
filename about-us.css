@@ -247,10 +247,10 @@ ul li{
         background: url(/image/about_one.png);
         height: 550px;
         background-attachment: fixed;
-        background-position: bottom;
+        background-position: top;
         background-repeat: no-repeat;
         /* background-size: 1400px 600px; */
-        background-size: contain;
+        background-size: cover;
         /* margin-bottom: 10px; */
     }
     
