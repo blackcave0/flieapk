@@ -245,9 +245,9 @@ ul li{
     .img-fixed .img{
         width: 100%;
         background: url(/image/about_one.png);
-        height: 750px;
+        height: 550px;
         background-attachment: fixed;
-        background-position: top;
+        background-position: 0 500px;
         background-repeat: no-repeat;
         /* background-size: 1400px 600px; */
         background-size: contain;
