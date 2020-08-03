@@ -102,12 +102,12 @@ img{
 }
 
 .apk:hover{
-    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 5px rgb(173, 172, 172);
     cursor: default;
     transition: .9s;
-    transform: scale(1.1);
-    background: #643d62; 
-    /* background: #ffa5a5; */
+    transform: scale(1.1) ;
+    /* background: #643d62;  */
+    background: #466b66;
     color: #fff;
     
 }
