@@ -265,7 +265,7 @@ ul li{
     
     
     .about-text{
-        margin-top: 50px;
+        margin-top: 0px;
     }
     .about-text p
     {
@@ -277,7 +277,7 @@ ul li{
     
     .about-text  h3{
         margin:30px 0 10px 20px;
-        font-family: 'Red Rose', cursive;
+        /* font-family: 'Red Rose', cursive; */
         /* font-family: 'Poppins', sans-serif; */
         /* font-family: 'Suwannaphum', cursive; */
         /* margin-left: 20px; */
