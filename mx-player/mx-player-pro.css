@@ -154,19 +154,16 @@ ul li{
 }
 
 
-.app-info h4{
-    font-size: xx-large;
-}
-
 .app-info  .name{
     position: absolute;
-    left: 300px;
-    
+    left: 300px;    
+}
+
+
 .about h4,
 .app-info h4{
     font-size: xx-large;
 }
-
 
 .imp{
     color: red;
