@@ -409,6 +409,7 @@ ul li{
 
     .thumbs .img3{
         width: 360px;
+        height: 500px;
         position: relative;
         display: flex;
         justify-content: center;
