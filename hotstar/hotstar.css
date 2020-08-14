@@ -102,6 +102,7 @@ nav .navbar-brand .img{
     width: 400px;
     height: 300px;
     margin: 30px 0;
+    /* border: 1px solid; */
     border-radius: 5px;
 }
 
@@ -150,7 +151,7 @@ ul li{
     /* height: 100px; */
     box-shadow: 0 0 10px rgb(155, 155, 155);
     border-radius: 5px;
-    height: 600px;
+    /* height: 800px; */
     margin: 0 1px;
     /* margin-right: 10px; */
 }

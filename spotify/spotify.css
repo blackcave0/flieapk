@@ -148,10 +148,10 @@ ul li{
 .thumbs img{
     width: 500px;
     /* height: 100px; */
-    box-shadow: 0 0 10px rgb(155, 155, 155);
-    border-radius: 5px;
-    height: 600px;
-    margin: 0 1px;
+    /* box-shadow: 0 0 10px rgb(155, 155, 155); */
+    /* border-radius: 5px; */
+    /* height: 700px; */
+    margin: 0 4px;
     /* margin-right: 10px; */
 }
 

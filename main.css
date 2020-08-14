@@ -105,11 +105,10 @@ img{
     box-shadow: 0 0 5px rgb(173, 172, 172);
     cursor: default;
     transition: .9s;
-    transform: scale(1.1) ;
+    transform: scale(1.05) ;
     /* background: #643d62;  */
     background: #466b66;
-    color: #fff;
-    
+    color: #fff; 
 }
 
 .description{
