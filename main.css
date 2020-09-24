@@ -559,8 +559,8 @@ ul li {
     }
 
     .nav{
-        /* top: 0px; */
-        /* position: sticky; */
+        top: 0px;
+        position: sticky;
         /* z-index: 1; */
         width: auto;
         /* display: block; */
