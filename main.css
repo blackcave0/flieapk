@@ -4,13 +4,14 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,44 +20,54 @@ body{
     background-size: 1300px 900px;
     background-position: top;
     background-attachment: fixed;
-    /* margin-bottom: 290px; */
 }
 
-.bg{
+
+
+.bg {
     display: flex;
     justify-content: center;
     width: 1350px;
 }
 
-.bg .img{
+.bg .img {
     width: 1349px;
     background: url(/image/progif.gif);
-    height: 550px;
+    height: 700px;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
-    /* background-size: 1400px 600px; */
+    /* background-size: 200rem 800px; */
     background-size: cover;
     /* margin-top: 10px; */
 }
 
+.nav{
+    top: -90px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    /* display: block; */
+    transition: top 0.3s;
+}
 
-nav{
+nav {
     width: 1349px;
     display: flex;
     height: 80px;
     /* margin-bottom: 20px; */
     box-shadow: 0 0 5px rgb(223, 223, 223);
+
 }
 
-nav .nav-link{
+nav .nav-link {
     font-size: 18px;
     width: 120px;
     display: flex;
     justify-content: center;
 }
 
-nav a:hover:not(.navbar-brand){
+nav a:hover:not(.navbar-brand) {
     display: flex;
     transition: .9s;
     width: 120px;
@@ -64,13 +75,13 @@ nav a:hover:not(.navbar-brand){
     border-radius: 5px;
 }
 
-nav .navbar-brand .img{
+nav .navbar-brand .img {
     width: 70px;
     /* margin-top: 30px; */
     height: 70px;
 }
 
-.container{
+.container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -79,51 +90,55 @@ nav .navbar-brand .img{
 }
 
 
-.navbar-brand .img{
+.navbar-brand .img {
     box-shadow: none;
     height: 50px;
     width: 50px;
 }
-.container .site-name{
+
+.container .site-name {
     font-size: 35px;
     color: #75fff8;
     margin-bottom: 30px;
 }
-.apk{
+
+.apk {
     margin: 50px 30px;
     border-radius: 5px;
     /* background: linear-gradient(45deg, #ffffff 20%, #ffd8b3 50%); */
     /* background: #d2feff; */
 }
-img{
+
+img {
     width: 300px;
     height: 170px;
     border-radius: 5px;
-    
+
     /* box-shadow: 0 0 10px #ffffff; */
 }
 
-.apk:hover{
+.apk:hover {
     box-shadow: 0 0 5px rgb(173, 172, 172);
     cursor: default;
     transition: .9s;
-    transform: scale(1.05) ;
+    transform: scale(1.05);
     /* background: #643d62;  */
     background: #466b66;
-    color: #fff; 
+    color: #fff;
 }
 
-.description{
+.description {
     width: 280px;
     height: 250px;
-   
+
 }
 
-.description, h2 p{
+.description,
+h2 p {
     margin: 0 10px;
 }
 
-.button{
+.button {
     display: flex;
     width: 100px;
     height: 40px;
@@ -138,32 +153,32 @@ img{
     margin: 10px 0 0 30px;
 }
 
-.button:hover{
-    color: #ffffff; 
+.button:hover {
+    color: #ffffff;
     text-decoration: none;
     transition: 0.6s;
     background: #ff5447;
 
 }
 
-.pagination{
+.pagination {
     width: 100%;
     /* display: flex; */
     justify-content: center;
     align-items: center;
 }
 
-.pagination ul li{
+.pagination ul li {
     /* position: relative; */
     display: inline-block;
     margin: 0 100px;
     /* justify-content: center; */
     /* align-items: center; */
     /* width: 100px; */
-    
+
 }
 
-.pagination ul li a{
+.pagination ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 30px;
@@ -174,15 +189,27 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
+}
+
+.pagination ul li:hover {
+    box-shadow: 0 0 10px #000;
+    transform: scale(1.05);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.pagination ul .active {
+    background: #6b71ad;
 }
 
 
-ul li{
+ul li {
     margin: 10px 0;
 }
 
-.contact{
+.contact {
     width: 1349px;
     height: 200px;
     display: flex;
@@ -192,26 +219,29 @@ ul li{
     /* box-shadow: 0 0 1px #2c2b2b; */
 }
 
-.contact .cont{
+.contact .cont {
     width: 1349px;
     display: flex;
     justify-content: left;
     align-items: center;
 }
-.cont img{
+
+.cont img {
     height: 130px;
     margin: 0 50px;
     width: 130px;
 }
+
 .cont ul,
-.cont ul{
+.cont ul {
     color: #000;
     /* display: inline-flex; */
     /* margin: 10px 10px; */
     margin-left: 200px;
     list-style: none;
 }
-.cont ul li a{
+
+.cont ul li a {
     color: #000;
     text-decoration: none;
     font-size: 19px;
@@ -220,10 +250,10 @@ ul li{
 
 .cont .cont-icon {
     font-size: 30px;
-    display: inline-flex;    
+    display: inline-flex;
 }
 
-.cont .ul-icon li{
+.cont .ul-icon li {
     width: 30px;
     height: 30px;
     position: relative;
@@ -232,41 +262,41 @@ ul li{
     padding: 10px 10px;
 }
 
+@media screen and (max-width: 480px) {
+    body {
 
-@media screen and (max-width: 360px){
-    body{
-        
         display: flex;
         justify-content: center;
         align-items: center;
         background: url(/image/new.png);
-        background-size: 450px 700px ;
+        background-size: 480px 700px;
         background-position: top;
         background-attachment: fixed;
 
     }
 
-    .bg{
+    .bg {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 360px;
+        width: 480px;
     }
-    
-    .bg .img{
-        width: 360px;
+
+    .bg .img {
+        width: 480px;
         background: url(/image/progif.gif);
         height: 300px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        /* background-size: 600px 450px; */
+        background-size: 480px 450px;
         /* margin-left: -890px; */
         background-size: cover;
         /* margin-top: 0; */
     }
 
-    .container{
+    .container {
+        width: 100%;
         position: relative;
         display: flex;
         justify-content: center;
@@ -275,60 +305,67 @@ ul li{
         margin: 0;
     }
 
-    nav{
-        width: 360px;
+    .nav{
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        /* width: max-content; */
         display: flex;
         height: min-content;
         margin-bottom: -10px;
     }
-    
-    nav a{
+
+    nav a {
         font-family: 'Open Sans', sans-serif;
         font-size: 18px;
         font-weight: 900;
     }
 
-    nav .nav-link{
+    nav .nav-link {
         display: flex;
         width: auto;
         justify-content: unset;
     }
-    nav a:hover:not(.navbar-brand){
-        display: flex; 
+
+    nav a:hover:not(.navbar-brand) {
+        display: flex;
         background: #929192;
-        width: auto;       
+        width: auto;
         transition: none;
         border-radius: unset;
 
     }
-    
-    nav .navbar-brand .img{
+
+    nav .navbar-brand .img {
         width: 70px;
         height: 50px;
         margin-top: 0;
         box-shadow: none;
     }
 
-    .container .site-name{
+    .container .site-name {
         font-size: 35px;
         color: #75fff8;
         margin-bottom: 30px;
     }
-    .apk{
+
+    .apk {
         margin: 20px 0;
-        
+
     }
 
-    .apk:hover{
+    .apk:hover {
         box-shadow: none;
         cursor: auto;
         transition: none;
         transform: none;
         background: none;
-        
+
     }
 
-    .apk img{
+    .apk img {
         width: 320px;
         height: 170px;
         /* margin: 0 20px; */
@@ -337,8 +374,8 @@ ul li{
         border-radius: 5px;
         /* box-shadow: 0 0 10px #ffffff; */
     }
-   
-    p{
+
+    p {
         font-size: 20px;
         font-weight: bolder;
         text-align: justify;
@@ -347,8 +384,8 @@ ul li{
         color: #000;
         font-family: 'Raleway', sans-serif;
     }
-    
-    .description{
+
+    .description {
         width: 300px;
         position: relative;
         display: flex;
@@ -357,12 +394,12 @@ ul li{
         margin: 15px 0;
     }
 
-    .apk h2{
+    .apk h2 {
         color: #000;
         font-weight: bolder;
     }
 
-    .button{
+    .button {
         display: flex;
         width: 300px;
         height: 40px;
@@ -376,30 +413,31 @@ ul li{
         text-decoration: none;
         margin: 10px 0 20px 0;
     }
-    .button:hover{
+
+    .button:hover {
         background: #ff5447;
         text-decoration: none;
     }
 
 
-    .pagination{
+    .pagination {
         width: 100%;
         /* display: flex; */
         justify-content: center;
         align-items: center;
     }
-    
-    .pagination ul li{
+
+    .pagination ul li {
         /* position: relative; */
         display: inline-block;
         margin: 0 20px;
         /* justify-content: center; */
         /* align-items: center; */
         /* width: 100px; */
-        
+
     }
-    
-    .pagination ul li a{
+
+    .pagination ul li a {
         color: #fff;
         text-decoration: none;
         font-size: 25px;
@@ -410,7 +448,264 @@ ul li{
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
+    }
+
+    
+    .contact {
+        width: 360px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        /* justify-content: center; */
+        background: rgb(235, 226, 226);
+        /* box-shadow: 0 0 1px #2c2b2b; */
+    }
+
+    .contact .cont {
+        width: 360px;
+        display: flex;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .cont img {
+        position: absolute;
+        ;
+        height: 50px;
+        margin: 0 0;
+        margin-top: -60px;
+        margin-left: 300px;
+        width: 50px;
+    }
+
+    .cont ul {
+        color: #000;
+        /* display: inline-flex; */
+        /* margin: 10px 10px; */
+        margin-top: 10px;
+        margin-left: 20px;
+        list-style: none;
+    }
+
+    .cont ul li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 19px;
+        text-align: justify;
+    }
+
+    .cont .cont-icon {
+        font-size: 24px;
+        display: inline-flex;
+        margin-top: 100px;
+    }
+
+    .cont .ul-icon li {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        display: inline-flex;
+        margin: 0 10px;
+
+        padding: 10px 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+    body {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(/image/new.png);
+        background-size: 450px 700px;
+        background-position: top;
+        background-attachment: fixed;
+
+    }
+
+    .bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+    }
+
+    .bg .img {
+        width: 360px;
+        background: url(/image/progif.gif);
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: 600px 450px; */
+        /* margin-left: -890px; */
+        background-size: cover;
+        /* margin-top: 0; */
+    }
+
+    .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .nav{
+        /* top: 0px; */
+        /* position: sticky; */
+        /* z-index: 1; */
+        width: auto;
+        /* display: block; */
+        transition: none;
+    }
+
+    nav {
+        width: 360px;
+        display: flex;
+        height: min-content;
+        margin-bottom: -10px;
+    }
+
+    nav a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    nav .nav-link {
+        display: flex;
+        width: auto;
+        justify-content: unset;
+    }
+
+    nav a:hover:not(.navbar-brand) {
+        display: flex;
+        background: #929192;
+        width: auto;
+        transition: none;
+        border-radius: unset;
+
+    }
+
+    nav .navbar-brand .img {
+        width: 70px;
+        height: 50px;
+        margin-top: 0;
+        box-shadow: none;
+    }
+
+    .container .site-name {
+        font-size: 35px;
+        color: #75fff8;
+        margin-bottom: 30px;
+    }
+
+    .apk {
+        margin: 20px 0;
+
+    }
+
+    .apk:hover {
+        box-shadow: none;
+        cursor: auto;
+        transition: none;
+        transform: none;
+        background: none;
+
+    }
+
+    .apk img {
+        width: 320px;
+        height: 170px;
+        /* margin: 0 20px; */
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        /* box-shadow: 0 0 10px #ffffff; */
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: justify;
+        margin: 20px 0;
+        /* margin-left: 20px; */
+        color: #000;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .description {
+        width: 300px;
+        position: relative;
+        display: flex;
+        display: inline-block;
+        /* text-align: justify; */
+        margin: 15px 0;
+    }
+
+    .apk h2 {
+        color: #000;
+        font-weight: bolder;
+    }
+
+    .button {
+        display: flex;
+        width: 300px;
+        height: 40px;
+        background: #384bf1;
+        color: #ffffff;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 10px 0 20px 0;
+    }
+
+    .button:hover {
+        background: #ff5447;
+        text-decoration: none;
+    }
+
+
+    .pagination {
+        width: 100%;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pagination ul li {
+        /* position: relative; */
+        display: inline-block;
+        margin: 0 20px;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* width: 100px; */
+
+    }
+
+    .pagination ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+        background: #836947;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
     /* .contact{
@@ -439,21 +734,21 @@ ul li{
         justify-content: space-between;
         align-items: center;
     } */
-    
+
     /* .text h5{
         margin: 0px 20px;
         font-family: 'Montserrat', sans-serif;
         text-align: justify;
         font-size: 12px;
     } */
-    
+
     /* .text img{
         margin-right: 30px;
         height: 40px;
         width: 40px;
     } */
-    
-    .contact{
+
+    .contact {
         width: 360px;
         height: 200px;
         display: flex;
@@ -463,24 +758,26 @@ ul li{
         background: rgb(235, 226, 226);
         /* box-shadow: 0 0 1px #2c2b2b; */
     }
-    
-    .contact .cont{
+
+    .contact .cont {
         width: 360px;
         display: flex;
         align-items: center;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
-    .cont img{
-        position: absolute;;
+
+    .cont img {
+        position: absolute;
+        ;
         height: 50px;
         margin: 0 0;
         margin-top: -60px;
         margin-left: 300px;
         width: 50px;
     }
-    
-    .cont ul{
+
+    .cont ul {
         color: #000;
         /* display: inline-flex; */
         /* margin: 10px 10px; */
@@ -488,26 +785,27 @@ ul li{
         margin-left: 20px;
         list-style: none;
     }
-    .cont ul li a{
+
+    .cont ul li a {
         color: #000;
         text-decoration: none;
         font-size: 19px;
         text-align: justify;
     }
-    
+
     .cont .cont-icon {
         font-size: 24px;
-        display: inline-flex;  
-        margin-top: 100px;  
+        display: inline-flex;
+        margin-top: 100px;
     }
-    
-    .cont .ul-icon li{
+
+    .cont .ul-icon li {
         width: 30px;
         height: 30px;
         position: relative;
         display: inline-flex;
         margin: 0 10px;
-        
+
         padding: 10px 10px;
     }
 }
