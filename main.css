@@ -708,7 +708,7 @@ ul li {
 
     .pagination {
         width: 100%;
-        display: flex;
+        /* display: flex; */
         /* position: absolute; */
         justify-content: center;
         align-items: center;
@@ -717,7 +717,7 @@ ul li {
     .pagination ul li {
         /* position: relative; */
         display: inline-block;
-        /* margin: 0 20px; */
+        margin: 30px 10px;
         /* justify-content: center; */
         /* align-items: center; */
         /* width: 100px; */
@@ -728,10 +728,10 @@ ul li {
         color: #fff;
         text-decoration: none;
         font-size: 25px;
-        background: #836947;
-        width: 150px;
-        height: 50px;
-        /* border-radius: 50%; */
+        background: #f88181;
+        width: 70px;
+        height: 40px;
+        border-radius: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -740,10 +740,17 @@ ul li {
 
     .pagination ul li:hover{
         box-shadow: 0 0 10px #000;
+        transition: none;
+        border-radius: 1px;
         /* transform: scale(1.05); */
         /* width: 50px; */
         /* height: 50px; */
         /* border-radius: 50%; */
+    }
+
+    .pagination ul .active {
+        background: #aeafbb;
+        color: #000;
     }
 
     /* .contact{
