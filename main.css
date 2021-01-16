@@ -170,9 +170,9 @@ h2 p {
     position: relative;
     margin: 10px 0 0 0px;
     transition: .9s;
-    /* border-radius: 0 0 5px 5px; */
-
+    
 }
+/* border-radius: 0 0 5px 5px; */
 
 .pagination {
     width: 100%;
@@ -634,11 +634,12 @@ ul li {
     .apk:hover {
         box-shadow: none;
         cursor: auto;
-        transition: none;
-        transform: none;
+        /* transition: none; */
+        /* transform: none; */
         background: none;
         transform: none;
         transition: none;
+        border-radius: 0;
     }
 
     .apk img {
@@ -687,7 +688,7 @@ ul li {
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        margin: 10px 0 20px 0;
+        margin: 10px 0 0px 0;
     }
 
     .button:hover {
@@ -697,14 +698,14 @@ ul li {
     }
 
     .apk:hover .button{
-        width: auto;
-        display: flex;
-        position: relative;
-        margin: 0;
-        transition: none;
-        /* border-radius: 0 0 5px 5px; */
-    
+        width: 320px;
+        /* display: flex; */
+        position: initial;
+        /* margin: 10px 0 0 0; */
+        transition: 0s;
+        
     }
+    /* border-radius: 0 0 5px 5px; */
 
     .pagination {
         width: 100%;
