@@ -103,31 +103,25 @@ nav .navbar-brand .img {
 
 .apk {
     margin: 50px 30px;
-    /* border-radius: 5px; */
-    /* background: linear-gradient(45deg, #ffffff 20%, #ffd8b3 50%); */
-    /* background: #d2feff; */
 }
 
 img {
     width: 300px;
     height: 170px;
     border-radius: 1px;
-
-    /* box-shadow: 0 0 10px #ffffff; */
 }
+
+
 
 .apk:hover 
 {
-    /* box-shadow: 0 0 5px rgb(173, 172, 172); */
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.808);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.808);
     cursor: default;
     transition: .7s;
-    transform: scale(1.01);
+    transform: scale(1);
     border-radius: 1px;
-    /* background: #466b66; */
     background: #ffffffc4;
-    /* background: #466b66b9; */
-    /* color: #fff; */
+    /* margin-top: 15px; */
 }
 
 .description {
@@ -170,32 +164,19 @@ h2 p {
     position: relative;
     margin: 10px 0 0 0px;
     transition: .9s;
+    /* box-shadow: inset 0 0 30px #ffffff; */
     
 }
-/* border-radius: 0 0 5px 5px; */
 
 .pagination {
     width: 100%;
-    /* position: relative; */
-    /* display: flex; */
     justify-content: center;
-    /* justify-content: left; */
     align-items: center;
-    /* left: -50px; */
 }
 
 .pagination ul li {
-    /* position: relative; */
     display: inline-block;
-    /* display: inline-flex; */
     margin: 0 10px;
-    /* justify-content: center; */
-    /* width: 100px; */
-    /* height: 80px; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* width: 100px; */
-
 }
 
 .pagination ul li a {
@@ -211,12 +192,16 @@ h2 p {
     align-items: center;
 }
 
-.pagination ul li:hover {
+.pagination ul li:hover{
     transition-duration: .5s;
-    box-shadow: 0 0 15px  #161616b7;
+    box-shadow: 0 0 10px 2px #000000;
     border-radius: 1px;
+    
 }
 
+.pagination ul li:hover .angel{
+    color: #000;
+}
 .pagination ul .active {
     background: #aeafbb;
     color: #000;
@@ -397,19 +382,31 @@ ul li {
         font-size: 20px;
         font-weight: bolder;
         text-align: justify;
-        margin: 20px 0;
+        margin: 0px 0;
         /* margin-left: 20px; */
         color: #000;
         font-family: 'Raleway', sans-serif;
     }
+    .apk:hover 
+    {
+        box-shadow: none;
+        cursor: default;
+        transition: none;
+        transform: none;
+        border-radius: 1px;
+        background: none;
+        /* margin-top: 15px; */
+    }
+    
 
     .description {
-        width: 300px;
+        width: 320px;
+        /* height: 250px; */
         position: relative;
         display: flex;
         display: inline-block;
         /* text-align: justify; */
-        margin: 15px 0;
+        margin: 25px 0;
     }
 
     .apk h2 {
@@ -419,7 +416,7 @@ ul li {
 
     .button {
         display: flex;
-        width: 300px;
+        width: 320px;
         height: 40px;
         background: #384bf1;
         color: #ffffff;
@@ -429,14 +426,24 @@ ul li {
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        margin: 10px 0 20px 0;
+        margin: 10px 0px 0px 0px;
     }
 
     .button:hover {
         background: #ff5447;
         text-decoration: none;
+        transition: none;
     }
 
+    .apk:hover .button{
+        width: auto;
+        display: flex;
+        position: relative;
+        /* margin: 0 0 0 0; */
+        transition: none;
+        /* box-shadow: inset 0 0 30px #ffffff; */
+        
+    }
 
     .pagination {
         width: 100%;
@@ -446,12 +453,8 @@ ul li {
     }
 
     .pagination ul li {
-        /* position: relative; */
         display: inline-block;
-        margin: 0 20px;
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* width: 100px; */
+        margin: 0 10px;
 
     }
 
@@ -460,9 +463,9 @@ ul li {
         text-decoration: none;
         font-size: 25px;
         background: #836947;
-        width: 50px;
+        width: 100px;
         height: 50px;
-        border-radius: 50%;
+        border-radius: 1px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -471,18 +474,23 @@ ul li {
 
     
     .contact {
-        width: 360px;
+        /* width: calc(100% - 10px); */
+        width: 480px;
+        /* display: grid; */
         height: 200px;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         margin-top: 30px;
         /* justify-content: center; */
         background: rgb(235, 226, 226);
         /* box-shadow: 0 0 1px #2c2b2b; */
     }
-
+   
     .contact .cont {
-        width: 360px;
+        width: inherit;
+        /* float: left; */
+        flex-wrap: wrap;
         display: flex;
         align-items: center;
         font-family: 'Open Sans', sans-serif;
