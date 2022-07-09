@@ -531,3 +531,32 @@ ul li{
         padding: 10px 10px;
     }
 }
+
+
+@media screen and (max-width: 360px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+        background-size: 750px 900px;
+        background-position: top; 
+        background-attachment: fixed;
+    }
+
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    nav{
+        width: 413px;
+        display: flex;
+        height: max-content;
+        box-shadow: 0 0 5px #000;
+    }
+}
