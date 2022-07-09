@@ -572,7 +572,7 @@ ul li {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url(/image/new.png);
+        /* background: url(/image/new.png); */
         background-size: 450px 700px;
         background-position: top;
         background-attachment: fixed;
@@ -611,7 +611,7 @@ ul li {
     .nav{
         top: 0px;
         position: fixed;
-        z-index: 1;
+        z-index: -1;
         width: auto;
         transition: none;
     }
