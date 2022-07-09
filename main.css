@@ -313,7 +313,7 @@ ul li {
     .bg .img {
         width: 430px;
         background: url(/image/progif.gif);
-        height: 300px;
+        height: 500px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -589,7 +589,7 @@ ul li {
     .bg .img {
         width: 360px;
         background: url(/image/progif.gif);
-        height: 300px;
+        height: 500px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
