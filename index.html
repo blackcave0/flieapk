@@ -10,12 +10,17 @@
     <link rel="icon" href="/image/black-logo.png">
     <script src="https://kit.fontawesome.com/40ec0ad621.js" crossorigin="anonymous"></script>
     <!-- <script src="scroll.js"></script> -->
+
+    <!-- google adsens -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9383760055754702"
+     crossorigin="anonymous"></script>
+
     <title>ProApk</title>
 </head>
 
-<body>
-
-    <div class="container">
+<body onload="nav()">
+    
+    <div class="container" >
         <div class="nav" id="nav">
             <nav class="navbar navbar-expand-sm navbar-light" style="background: #fff;">
 
@@ -225,7 +230,7 @@
         </div>
 
         <div class="apk">
-            <img src="https://martechtoday.com/wp-content/uploads/2018/08/spotify-logo-1920x1080_fouoik.jpg" alt="">
+            <img src="https://www.scdn.co/i/_global/open-graph-default.png" alt="">
             
             <div class="description">
                 <h2>Spotify Music Premium</h2>
@@ -266,7 +271,7 @@
         </div>
     </div>
 
-    <script>
+    <!-- <script>
         window.onscroll = function () {
             scrollFunction()
         };
@@ -278,8 +283,29 @@
                 document.getElementById("nav").style.top = "-90px";
             }
         }
-    </script>
+    </script> -->
+    <script>
+        function nav(){
+            var nav = document.getElementById('nav');
+            // nav.style.visibility = 'hidden'
+            nav.style.display = 'none'
+            nav.style.zIndex = '-1'
+            /* setTimeout(() => {
+                nav.style.display = 'none';
+            }, 2000); */
 
+            window.onscroll = scrollFun =()=>{
+                if((document.body.scrollTop > 200 ) || (document.documentElement.scrollTop > 200)){
+                    // nav.style.visibility = 'visible'
+                    nav.style.display = 'flex'
+                    nav.style.zIndex = '1'
+                    nav.style.top = '0';
+                } else {
+                    document.getElementById("nav").style.top = "-90px";
+                }                 
+            }
+        }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
