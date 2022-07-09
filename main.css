@@ -593,9 +593,9 @@ ul li {
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 1000px 360px;
+        background-size: 100px 360px;
         /* margin-left: -890px; */
-        /* background-size: cover; */
+        background-size: cover;
         /* margin-top: 0; */
     }
 
