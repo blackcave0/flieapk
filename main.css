@@ -217,8 +217,8 @@ ul li {
 .contact {
     width: 1349px;
     height: 200px;
-    padding: 200px 0;
-    margin-top: 200px;
+    /* padding: 200px 0; */
+    /* margin-top: 200px; */
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -246,7 +246,7 @@ ul li {
 .cont img {
     height: 130px;
     width: 130px;
-   z-index: 1;
+   /* z-index: 1; */
    margin: 0 50px;
 }
 /* .cont .circle{
@@ -787,47 +787,14 @@ ul li {
         color: #000;
     }
 
-    /* .contact{
-        display: flex;
-        justify-content: center;
-        width: 360px;
-        
-    } */
-    /* .contact .igm{
-        width: 360px;
-        display: flex;
-        background: url(Technologi.gif);
+    
+    .container .contact{
+        width: 320px;
         height: 200px;
-        background-attachment: fixed;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: 360px 100px;
-        
-    } */
-
-    /* .contact .text{
-        width: 360px;
-        height: 100px;
-        background: #e6ece3;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-    } */
-
-    /* .text h5{
-        margin: 0px 20px;
-        font-family: 'Montserrat', sans-serif;
-        text-align: justify;
-        font-size: 12px;
-    } */
-
-    /* .text img{
-        margin-right: 30px;
-        height: 40px;
-        width: 40px;
-    } */
-
-        .contact {
+        margin-top: 0;
+    }
+    .contact{
         width: 360px;
         height: 200px;
         display: flex;
@@ -837,36 +804,24 @@ ul li {
         background: rgb(235, 226, 226);
         /* box-shadow: 0 0 1px #2c2b2b; */
     }
-
-    .contact .cont {
+    
+    .contact .cont{
         width: 360px;
         display: flex;
         align-items: center;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
-
-   /*  .logo-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 20px;
-    } */
-    .cont img {
-        position: absolute;
-        ;
+    .cont img{
+        position: absolute;;
         height: 50px;
         margin: 0 0;
-        margin-top: -100px;
+        margin-top: -60px;
         margin-left: 300px;
         width: 50px;
     }
-
-    /* .cont .circle {
-        display: none;
-    } */
-
-    .cont ul {
+    
+    .cont ul{
         color: #000;
         /* display: inline-flex; */
         /* margin: 10px 10px; */
@@ -874,27 +829,26 @@ ul li {
         margin-left: 20px;
         list-style: none;
     }
-
-    .cont ul li a {
+    .cont ul li a{
         color: #000;
         text-decoration: none;
         font-size: 19px;
         text-align: justify;
     }
-
+    
     .cont .cont-icon {
         font-size: 24px;
-        display: inline-flex;
-        margin-top: 100px;
+        display: inline-flex;  
+        margin-top: 100px;  
     }
-
-    .cont .ul-icon li {
+    
+    .cont .ul-icon li{
         width: 30px;
         height: 30px;
         position: relative;
         display: inline-flex;
         margin: 0 10px;
-
+        
         padding: 10px 10px;
     }
 }
