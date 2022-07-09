@@ -218,6 +218,7 @@ ul li {
     width: 1349px;
     height: 200px;
     padding: 200px 0;
+    margin-top: 200px;
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -233,15 +234,34 @@ ul li {
     align-items: center;
 }
 
+.logo-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    margin: 0 100px;
+    /* background-color: #ffffff; */
+    
+}
+
 .cont img {
     height: 130px;
-    margin: 0 50px;
     width: 130px;
+   z-index: 1;
+}
+.cont .circle{
+    display: flex;
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
 }
 
 .cont ul,
 .cont ul {
-    color: #000;
+    color: #fff;
+    
     /* display: inline-flex; */
     /* margin: 10px 10px; */
     margin-left: 200px;
@@ -249,7 +269,7 @@ ul li {
 }
 
 .cont ul li a {
-    color: #000;
+    color: #a6f393;
     text-decoration: none;
     font-size: 19px;
     text-align: justify;
@@ -806,7 +826,7 @@ ul li {
         width: 40px;
     } */
 
-    .contact {
+        .contact {
         width: 360px;
         height: 200px;
         display: flex;
@@ -825,6 +845,12 @@ ul li {
         font-weight: 500;
     }
 
+    .logo-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px;
+    }
     .cont img {
         position: absolute;
         ;
@@ -833,6 +859,10 @@ ul li {
         margin-top: -100px;
         margin-left: 300px;
         width: 50px;
+    }
+
+    .cont .circle {
+        display: none;
     }
 
     .cont ul {
